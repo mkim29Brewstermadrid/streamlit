@@ -9,9 +9,8 @@ st.title("Unblocked Rock, Paper, Scissors Game")
 
 # Using web URLs so you don't need local files
 rock_url = "https://png.pngtree.com/png-clipart/20220824/ourmid/pngtree-cartoon-rock-transparent-png-image_6122807.png"
-paper_url = "./paper.png"
+paper_url = "paper.png"
 scissors_url = "https://images.vexels.com/media/users/3/256357/isolated/preview/2644fd66c3d4de114b00ea2e6a36dd62-scissors-playful-cartoon.png"
-
 
 # Map choices directly to URLs
 #{} are called dictionaries they are used in python to pair a key and value together.  
