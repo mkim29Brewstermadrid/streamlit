@@ -1,6 +1,6 @@
 import streamlit as st
 import random
-from PIL import Image
+
 
 st.title("Unblocked Rock, Paper, Scissors Game")
 
