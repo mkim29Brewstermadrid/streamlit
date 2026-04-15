@@ -21,11 +21,10 @@ choices = {
 }
 
 
-# In your st.image calls later, Streamlit handles URLs automatically:
-# st.image(choices["Rock"], width=150)
+# Use url because streamlit handles urls automatically
 st.write("### Choose your move:")
 
-# 3. Use columns to create a clean UI
+# 3. Columns
 #col1,2,3 is columns 1,2,3
 #the st.columns(3) is splitting my webpage into 3 vertical sections
 col1, col2, col3 = st.columns(3)
