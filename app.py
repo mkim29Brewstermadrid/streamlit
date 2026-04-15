@@ -31,7 +31,7 @@ col1, col2, col3 = st.columns(3)
 user_choice = None
 
 #Column 1 represents rock.
-
+#with is like(within this column put this)
 with col1:
     st.image(rock_url)
     if st.button("Rock"):
